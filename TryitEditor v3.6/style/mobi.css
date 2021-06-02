@@ -1,0 +1,639 @@
+@media (max-width:450px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        font-family: "Montserrat", sans-serif;
+        background-color: black;
+        scroll-behavior: smooth;
+        font-size: 15px;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        margin: 10px 0px;
+    }
+    .col-50 {
+        width: 100% !important;
+    }
+    .col-100 {
+        width: 100%;
+        display:  block!important;
+    }
+    .col-desktop {
+        margin: 0 auto !important;
+        width: 100% !important ;
+        padding: 0 !important;
+    }
+    
+    .content {
+        padding: 15px !important;
+        margin: 0 !important;
+    }
+    /* CSS head-menu */
+    #head {
+        height: 50px !important;
+        z-index: 1;
+        position: fixed;
+        top: 0 !important;
+        width: 100% !important;
+        background-color: #222;
+        text-align: center;
+        justify-items: center;
+        text-transform: uppercase;
+    }
+    #head .menu-img img {
+        width: 100%;
+        opacity: 0.6;
+        display: none;
+    }
+
+    #headu .menu-img { 
+        height: auto; 
+    }
+    #head .list-menu {
+        display: flex;
+        list-style: none;
+    }
+    #head .list-menu .icon-item  {
+        display: none;
+        font-size: 36px;
+    }
+    #head .list-menu li {
+        padding: 0 !important;
+        line-height: 23px;
+        width: 25%;
+    }
+    #head .list-menu li a {
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    #head .list-menu li p {
+        padding: 14px;
+    }
+    #head .list-menu .menu-active {
+        background-color: black;
+    }
+    #head .list-menu li:hover {
+        background-color: black;
+    }
+    /* CSS home */
+    #home {
+        margin-top: 60px !important;
+        text-align: center;
+        color: aliceblue;
+    }
+    #home h2 {
+        display: block !important;
+        margin: 10px;
+        font-size: 64px;
+    }
+    #home h1{display: none;}
+    #home p {
+        margin: 15px;
+        font-size: 15px;
+    }
+    #home img {
+        width: 100%;
+    
+    }
+    /* CSS about */
+    #about  {
+    
+    }
+    #about .my-name h3 {
+        padding: 15px 0;
+        width: 150px;
+        color: aliceblue;
+        border-bottom: 1px solid white;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    #about .my-name p {
+        color: #757575;
+         text-align: justify;
+         margin: 15px 0;
+         font-size: 15px;
+         line-height: 1.5;
+    }
+    #about .my-skin h3 {
+        padding: 15px 0;
+        width: 150px;
+        color: aliceblue;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    #about .my-skin h4{
+        letter-spacing: 4px;
+        margin: 15px 0;
+        color: #757575;
+    }
+    #about .my-skin > p{
+        width: 100%;
+        height: 28px;
+        position: relative;
+        background-color: aliceblue;
+        
+    }
+    #about .my-skin .skin1::after {
+        content: '';
+        width: 95%;
+        height: 100%;
+        position: absolute;
+        background-color: #616161;
+    }
+    #about .my-skin .skin2::after {
+        content: '';
+        width: 85%;
+        height: 100%;
+        position: absolute;
+        background-color: #616161;
+    }
+    #about .my-skin .skin3::after {
+        content: '';
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        background-color: #616161;
+    }
+    #about .my-skin .box-tt {
+        margin: 30px 0;
+        display: flex;
+        background-color: white;
+    }
+    #about .my-skin .box-tt span {
+        width: 25%;
+        text-align: center;
+        margin: 16px 0;
+        padding: 16px 0;
+        font-size: 24px;
+    }
+    #about .my-skin .box-tt p {
+        font-size: 12px;
+    }
+    #about .my-skin button {
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+    #about .my-skin button:hover {
+        background-color: rgba(255, 255, 255, 0.692);
+    }
+    #about .my-price h3 {
+        padding: 15px 0;
+        width: 150px;
+        color: aliceblue;
+        text-transform: capitalize;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    #about .my-price .list-price {
+        background-color: white;
+        list-style: none;
+        opacity: 1 !important;
+        margin: 15px 0 !important;
+    }
+    #about .my-price .list-price li {
+        padding: 16px;
+        text-align: center;
+        border-top: 0.5px solid #61616188;
+    }
+    #about .my-price .list-price li:first-child {
+        padding: 32px 16px;
+        font-size: 24px;
+        background-color: #616161;
+        color: white;
+    }
+    #about .my-price .list-price li p {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    #about .my-price .list-price li:last-child {
+        padding: 30px 16px;
+        background-color: rgb(240, 240, 240) ;
+    }
+    #about .my-price .list-price li a {
+        padding: 12px 24px ;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+    }
+    #about .my-price .list-price li a:hover {
+        background-color: black;
+        color: white;
+    }
+    #about .my-price .list-price:hover {
+        opacity: 1;
+    }
+    #about .my-reputation h3 {
+        padding: 30px 0 15px 0;
+        color: aliceblue;
+        text-transform: capitalize;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    #about .my-reputation .reputation {
+        color: #757575;
+        display: flex;
+        padding: 10px 0;
+    }
+    #about .my-reputation .reputation img {
+        border-radius: 50%;
+        width: 80px;
+    }
+    #about .my-reputation .reputation p {
+        line-height: 40px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    #about .my-reputation .reputation span {
+        font-size: 18px;
+        padding-right: 10px;
+    }
+    /* CSS Photos */
+    #photos h3 {
+        margin: 30px 0;
+        width: 200px;
+        padding: 30px 0;
+        color: aliceblue;
+        border-bottom: 1px solid white;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    #photos .list-photo {
+        display: block !important;
+    }
+    #photos .list-photo img {
+        width: 100%;
+        padding: 5px 0 !important;
+    }
+    /* CSS contact */
+    #contact h3 {
+        margin: 30px 0;
+        padding: 30px 0;
+        width: 200px;
+        color: aliceblue;
+        border-bottom: 1px solid white;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    #contact .list-contact {
+        color: white;
+    }
+    #contact .list-contact .fa-map-marker {margin: 0px 15px 0px 10px;}
+    #contact .list-contact .fa-phone {margin: 15px 5px 0px 5;}
+    #contact .list-contact .fa-envelope-o {margin: 15px 0;}
+    #contact .list-contact P {list-style: 1.5;}
+    #contact .list-contact span {
+        margin:0 10px;
+        color: #616161;
+    }
+    #contact .form-contact {
+        width: 100%;
+        margin: 15px 0;
+    }
+    #contact .form-contact p {
+        color: #616161;
+        padding: 15px 0;
+    }
+    #contact  .form-contact .list-form {
+        text-align: left;
+        margin: 5px 0;
+        padding: 10px;
+        width: 100%;
+        height: 55px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #contact  .form-contact button {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    #foot {
+        color: #616161;;
+    }
+    #foot .foot-item {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    #foot  a {
+        color: #616161;
+        padding-bottom: 100px;
+    }
+}
+@media (max-width:1024px) {
+    .col-desktop {
+        width: 824px;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        font-family: "Montserrat", sans-serif;
+        background-color: black;
+        scroll-behavior: smooth;
+        font-size: 15px;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        margin: 10px 0px;
+    }
+    .col-50 {
+        width: 50%;
+    }
+    .col-100 {
+        width: 100%;
+        display: flex;
+    }
+    .col-desktop {
+        margin: 0 auto;
+    }
+    
+    .content {
+        margin-left: 120px;
+        padding: 12px 24px ;
+    }
+    /* CSS head-menu */
+    #head {
+        height: 50%;
+        width: 120px;
+        z-index: 1;
+        position: fixed;
+        left: 0;
+        background-color: #222;
+        text-align: center;
+        justify-items: center;
+        text-transform: uppercase;
+    }
+    #head .menu-img img {
+        width: 100%;
+        opacity: 0.6;
+    }
+    .icon-item  {
+        font-size: 36px;
+    }
+    #headu .menu-img { 
+        height: auto; 
+    }
+    
+    #head .list-menu li {
+        padding: 12px;
+    }
+    #head .list-menu li a {
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    #head .list-menu li p {
+        padding: 14px;
+    }
+    #head .list-menu .menu-active {
+        background-color: black;
+    }
+    #head .list-menu li:hover {
+        background-color: black;
+    }
+    /* CSS home */
+    #home {
+        text-align: center;
+        color: aliceblue;
+    }
+    #home h1 {
+        margin: 10px;
+        font-size: 64px;
+    }
+    #home h2{display: none;}
+    #home p {
+        margin: 15px;
+        font-size: 15px;
+    }
+    #home img {
+        width: 100%;
+    
+    }
+    /* CSS about */
+    #about .my-name {
+    
+    }
+    #about .my-name h3 {
+        padding: 15px 0;
+        width: 150px;
+        color: aliceblue;
+        border-bottom: 1px solid white;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    #about .my-name p {
+        color: #757575;
+         text-align: justify;
+         margin: 15px 0;
+         font-size: 15px;
+         line-height: 1.5;
+    }
+    #about .my-skin h3 {
+        padding: 15px 0;
+        width: 150px;
+        color: aliceblue;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    #about .my-skin h4{
+        letter-spacing: 4px;
+        margin: 15px 0;
+        color: #757575;
+    }
+    #about .my-skin > p{
+        width: 100%;
+        height: 28px;
+        position: relative;
+        background-color: aliceblue;
+        
+    }
+    #about .my-skin .skin1::after {
+        content: '';
+        width: 95%;
+        height: 100%;
+        position: absolute;
+        background-color: #616161;
+    }
+    #about .my-skin .skin2::after {
+        content: '';
+        width: 85%;
+        height: 100%;
+        position: absolute;
+        background-color: #616161;
+    }
+    #about .my-skin .skin3::after {
+        content: '';
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        background-color: #616161;
+    }
+    #about .my-skin .box-tt {
+        margin: 30px 0;
+        display: flex;
+        background-color: white;
+    }
+    #about .my-skin .box-tt span {
+        width: 25%;
+        text-align: center;
+        margin: 16px 0;
+        padding: 16px 0;
+        font-size: 24px;
+    }
+    #about .my-skin .box-tt p {
+        font-size: 12px;
+    }
+    #about .my-skin button {
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+    #about .my-skin button:hover {
+        background-color: rgba(255, 255, 255, 0.692);
+    }
+    #about .my-price h3 {
+        padding: 15px 0;
+        width: 150px;
+        color: aliceblue;
+        text-transform: capitalize;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    #about .my-price .list-price {
+        background-color: white;
+        list-style: none;
+        opacity: 0.6;
+    }
+    #about .my-price .list-price li {
+        padding: 16px;
+        text-align: center;
+        border-top: 0.5px solid #61616188;
+    }
+    #about .my-price .list-price li:first-child {
+        padding: 32px 16px;
+        font-size: 24px;
+        background-color: #616161;
+        color: white;
+    }
+    #about .my-price .list-price li p {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    #about .my-price .list-price li:last-child {
+        padding: 30px 16px;
+        background-color: rgb(240, 240, 240) ;
+    }
+    #about .my-price .list-price li a {
+        padding: 12px 24px ;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+    }
+    #about .my-price .list-price li a:hover {
+        background-color: black;
+        color: white;
+    }
+    #about .my-price .list-price:hover {
+        opacity: 1;
+    }
+    #about .my-reputation h3 {
+        padding: 30px 0 15px 0;
+        color: aliceblue;
+        text-transform: capitalize;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    #about .my-reputation .reputation {
+        color: #757575;
+        display: flex;
+        padding: 10px 0;
+    }
+    #about .my-reputation .reputation img {
+        border-radius: 50%;
+        width: 80px;
+    }
+    #about .my-reputation .reputation p {
+        line-height: 40px;
+        margin-left: 20px;
+    }
+    #about .my-reputation .reputation span {
+        font-size: 18px;
+        padding-right: 10px;
+    }
+    /* CSS Photos */
+    #photos h3 {
+        margin: 30px 0;
+        width: 200px;
+        padding: 30px 0;
+        color: aliceblue;
+        border-bottom: 1px solid white;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    #photos .list-photo {
+        display: flex;
+    }
+    #photos .list-photo img {
+        width: 100%;
+        padding: 5px 0;
+    }
+    /* CSS contact */
+    #contact h3 {
+        margin: 30px 0;
+        padding: 30px 0;
+        width: 200px;
+        color: aliceblue;
+        border-bottom: 1px solid white;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    #contact .list-contact {
+        color: white;
+    }
+    #contact .list-contact .fa-map-marker {margin: 0px 15px 0px 10px;}
+    #contact .list-contact .fa-phone {margin: 15px 5px 0px 5;}
+    #contact .list-contact .fa-envelope-o {margin: 15px 0;}
+    #contact .list-contact P {list-style: 1.5;}
+    #contact .list-contact span {
+        margin:0 10px;
+        color: #616161;
+    }
+    #contact .form-contact {
+        width: 100%;
+        margin: 15px 0;
+    }
+    #contact .form-contact p {
+        color: #616161;
+        padding: 15px 0;
+    }
+    #contact  .form-contact .list-form {
+        text-align: left;
+        margin: 5px 0;
+        padding: 10px;
+        width: 100%;
+        height: 55px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #contact  .form-contact button {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    #foot {
+        color: #616161;;
+    }
+    #foot .foot-item {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    #foot  a {
+        color: #616161;
+        padding-bottom: 100px;
+    }
+}
